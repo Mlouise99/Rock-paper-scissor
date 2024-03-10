@@ -38,7 +38,7 @@ const getUserChoice = userInput => {
   };
   
   const playGame = () => {
-    const userChoice = getUserChoice('rock'); // You can pass 'rock', 'paper', 'scissors', or 'bomb' as an argument
+    const userChoice = getUserChoice('rock'); 
     const computerChoice = getComputerChoice();
     console.log('You threw: ' + userChoice);
     console.log('The computer threw: ' + computerChoice);
